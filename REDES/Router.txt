@@ -1,0 +1,18 @@
+				Router
+			-conectar redes difernetes
+			-determinar la mejor ruta
+			(no siempre la mas corta)
+			
+Clase A: 10.0.0.0____a____10.255.255.255.
+Clase B: 172.16.0.0____a___172.31.255.255.
+Clase C: 192.168.0.0____a___192.168.255.255.
+			
+			redes wan
+	que se necesita para que haiga comunicacion (pregunta de examen)
+	elementos que se necista para una comunicacion
+	
+	para un pc su IP	(origen/emsior/ip)
+
+operadores AND
+
+	

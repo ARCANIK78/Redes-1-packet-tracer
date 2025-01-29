@@ -1,0 +1,9 @@
+<!-- admin_dashboard/editar_producto.html -->
+<form method="post">
+    {% csrf_token %}
+    <label for="nombre">Nombre:</label>
+    <input type="text" name="nombre" id="nombre" value="{{ producto.nombre }}" required><br><br>
+    <label for="precio">Precio:</label>
+    <input type="number" name="precio" id="precio" value="{{ producto.precio }}" required><br><br>
+    <button type="submit">Editar Producto</button>
+</form>

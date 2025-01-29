@@ -1,0 +1,15 @@
+CREATE TABLE Empleados_1 (
+    ID SERIAL PRIMARY KEY,
+    Nombre VARCHAR(50),
+    Apellido VARCHAR(50),
+    Telefono int NOT NULL,
+    Direccion VARCHAR(100)
+);
+
+select nombre, apellido, telefono,direccion from Empleados_1
+	
+select * from Empleados_1 where direccion ='En mi corazón'
+	
+INSERT INTO Empleados_1 (Nombre, Apellido, Telefono, Direccion) VALUES ('Juan', 'Pérez', '93456789', 'Calle Principal 123');
+INSERT INTO Empleados_1 (Nombre, Apellido, Telefono, Direccion) VALUES ('María', 'González', '97834567', 'Avenida Libertad 456');
+
